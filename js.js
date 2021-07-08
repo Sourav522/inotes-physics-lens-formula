@@ -248,15 +248,6 @@ for(m=0;m<node.nodeL2.length;m++){
 
 
 
-document.getElementById('crossButton').onclick=function(){
-    //console.log('finish');
-    dsBridge.call("byjus.sendExploreUIEvent", {
 
-        tag: "finish",
-
-        data: ""
-
-    });
-}
 
 
